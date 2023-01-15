@@ -1,0 +1,458 @@
+*{
+   box-sizing: border-box;
+}
+
+.conteyner{
+   width: 1500px;
+   height: 700px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: rgb(131, 212, 212);
+}
+.contText {
+  
+}
+.contImg {
+   width: 500px;
+   height: 100px;
+ 
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+  
+}
+
+
+.contImg1 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: white;
+   box-shadow: 1px 1px 20px 7px rgba(250, 245, 245, 0.657);
+
+   animation-name: contImg1;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   
+}
+
+
+@keyframes contImg1{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(250, 245, 245, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(250, 245, 245,0.657);
+   }
+
+}
+
+
+.contImg2 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(223, 114, 114);
+   box-shadow: 1px 1px 20px 7px rgba(223, 114, 114, 0.657);
+    animation-name: contImg2;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg2{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(223, 114, 114, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(233, 114, 114,0.657);
+   }
+
+}
+
+.contImg3 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(215, 137, 82);
+   box-shadow: 1px 1px 20px 7px rgba(215, 137, 82, 0.657);
+   animation-name: contImg3;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg3{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(215, 137, 82, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(215, 137, 82, 0.657);
+   }
+
+}
+
+
+
+.contImg4 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(192, 200, 53);
+   box-shadow: 1px 1px 20px 7px rgba(192, 200, 53, 0.657);
+   animation-name: contImg4;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg4{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(192, 200, 53, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+   
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(192, 200, 53, 0.657);
+   }
+
+}
+
+.contImg5 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(79, 87, 232);
+   box-shadow: 1px 1px 20px 7px rgba(79, 87, 232, 0.657);
+   animation-name: contImg5;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg5{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(79, 87, 232, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(79, 87, 232, 0.657);
+   }
+
+}
+
+.contImg6 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(55, 190, 69);
+   box-shadow: 1px 1px 20px 7px rgba(55, 190, 69, 0.657);
+   animation-name: contImg6;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg6{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(55, 190, 69, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(55, 190, 69, 0.657);
+   }
+
+}
+
+.contImg7 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(148, 25, 113);
+   box-shadow: 1px 1px 20px 7px rgba(148, 25, 113, 0.657);
+   animation-name: contImg7;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg7{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(148, 25, 113, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(148, 25, 113, 0.657);
+   }
+
+}
+
+.contImg8 {
+   width: 50px;
+   height: 50px;
+   border-radius: 100%;
+   background-color: rgb(15, 10, 10);
+   box-shadow: 1px 1px 20px 7px rgba(15, 10, 10, 0.657);
+   animation-name: contImg8;
+   animation-duration: 1s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+}
+
+@keyframes contImg8{
+   0%{
+      box-shadow: 0px 0px 0px 0px rgba(15, 10, 10, 0.657);
+          
+   }
+
+   1%{
+      width: 47px;
+      height: 47px;
+   }
+
+   5%{
+      width:52px ;
+      height: 52px;
+   }
+
+   7%{
+      width: 50px;
+      height: 50px;
+   }
+
+   90%{
+      width: 40px;
+      height: 40px;
+   }
+
+   95%{
+      width:45px;
+      height:45px;
+   }
+   
+
+
+   100%{
+
+      box-shadow: 1px 1px 10px 10px rgb(15, 10, 10, 0.7);
+   }
+
+}
+
